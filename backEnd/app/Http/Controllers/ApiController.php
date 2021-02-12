@@ -19,7 +19,7 @@ class ApiController extends Controller
         }
 
     }
-    protected function setMouleName($module_name){
+    protected function setModuleName($module_name){
         $this->module_name = $module_name;
     }
     protected function initModel(){
